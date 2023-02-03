@@ -18,7 +18,7 @@ p.errorText {
 }
 
 div#wrapperdiv {
-  width: 51.25rem;
+  max-width: 51.25rem;
   margin: 0 auto;
   position: relative;
   top: 2rem;
@@ -28,16 +28,18 @@ div#wrapperdiv {
 
 div#BodyTitle,
 body#bookingpage.testing p {
+  box-sizing: border-box;
   background: url(cb-front-page.gif);
   height: 170px;
-  width: 800px;
+  width: 100%;
   font-size: 2rem;
   font-weight: normal;
   color: #f6f6f6;
-  padding: 10px;
+  padding: 1rem;
   vertical-align: unset;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+  background-position: center center;
   text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
 }
 
