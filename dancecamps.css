@@ -1,0 +1,274 @@
+html {
+  font-size: 16px;
+  background: none;
+  font-family: Avenir, Helvetica, sans-serif;
+  color: #191919;
+}
+
+.errorText {
+  color: red;
+}
+
+p.errorText {
+  padding: 0 1em 1.5em 1em;
+}
+
+#processingForm {
+  padding: 0 1em 1.5em 1em;
+}
+
+div#wrapperdiv {
+  width: 51.25rem;
+  margin: 0 auto;
+  position: relative;
+  top: 2rem;
+  background: rgba(241, 241, 241, 0.64);
+  border-radius: 3px;
+}
+
+div#BodyTitle,
+body#bookingpage.testing p {
+  background: url(cb-front-page.gif);
+  height: 170px;
+  width: 800px;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #f6f6f6;
+  padding: 10px;
+  vertical-align: unset;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+}
+
+.sectionWrapper {
+  float: left;
+  position: inherit;
+  padding: 0 0rem 1.5rem 0rem;
+}
+
+.sectionHeader {
+  font-size: 1.5rem;
+  color: #353535;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+p,
+ul {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin: 0;
+}
+
+.fieldwrapper {
+  min-height: 2rem;
+}
+
+.itemdescriptioncell,
+.inputcell {
+  display: inline-block;
+}
+
+.itemdescriptioncell {
+  line-height: 1.0rem;
+}
+
+.inputcell {
+  position: absolute;
+  right: 1rem;
+  line-height: 1.0rem;
+}
+
+ul.radiogroup {
+  list-marker-style: none;
+}
+
+ul.radiogroup li {
+  display: inline-block;
+  float: left;
+}
+
+input,
+textarea,
+select {
+  min-width: 15em;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 4px;
+  border-color: rgb(166, 166, 166);
+}
+
+select {
+  height: 1.5rem;
+}
+
+#addendum {
+  padding: 1.0rem;
+  clear: both;
+}
+
+#bookagain {
+  padding: 1rem 0;
+}
+
+#returntobooking {
+  margin-bottom: 2rem;
+}
+
+/* item specific css */
+div[id*=_Address] {
+  height: 3.0rem;
+}
+
+textarea {
+  height: 2.75rem;
+}
+
+input[type=submit],
+input[type=button] {
+  cursor: pointer;
+  size: 2em;
+  color: white;
+  background: #364D7F;
+  margin: 1em auto;
+  padding: 0.7em 1em;
+  box-sizing: border-box;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border: none;
+
+}
+
+#Introduction {
+  padding: 0 1rem;
+}
+
+#Introduction p {
+  padding: 0 0 1rem;
+}
+
+#form_RegisterForm,
+#layoutTable {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+#Register {
+  margin-bottom: 0;
+}
+
+input[type=submit]:hover,
+input[type=button]:hover {
+  background: #162d5F;
+}
+
+/* tabbed radioGroups! */
+ul.radioGroup {
+  list-style-type: none;
+  position: relative;
+  min-height: 1.0em;
+  clear: both;
+  margin: 0.10em 0 0.10em 0.10em;
+  font-size: 0.9em;
+  padding-left: 0;
+  border: none;
+}
+
+ul.radioGroup li {
+  float: left;
+}
+
+ul.radioGroup li:first-child label {
+  -webkit-border-top-left-radius: 0.5em;
+  -webkit-border-bottom-left-radius: 0.5em;
+  -moz-border-radius-topleft: 0.5em;
+  -moz-border-radius-bottomleft: 0.5em;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  margin-right: 3px;
+}
+
+ul.radioGroup li:last-child label {
+  -webkit-border-top-right-radius: 0.5em;
+  -webkit-border-bottom-right-radius: 0.5em;
+  -moz-border-radius-topright: 0.5em;
+  -moz-border-radius-bottomright: 0.5em;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+input[type=radio]+label {
+  background: #cccccc;
+  padding: 0.2em 1em;
+  margin-left: -1px;
+  position: relative;
+  left: 1px;
+  cursor: pointer;
+  border: none;
+}
+
+li [type=radio] {
+  display: none !important;
+}
+
+input[type=radio]:checked+label {
+  background: #162d5F;
+  z-index: 2;
+  color: white;
+}
+
+input[type="checkbox"] {
+  min-width: auto;
+}
+
+.sCostSummary input[type=button]:first-child {
+  background: #cccccc;
+  color: black;
+}
+
+#bookingpage #wrapperdiv {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  margin-bottom: 30px;
+}
+
+#bookingpage #wrapperdiv #addendum {
+  padding: 0;
+}
+
+#bookingpage #wrapperdiv #Introduction {
+  padding: 1rem 0 0 0;
+}
+
+#bookingpage #wrapperdiv>div:not(#BodyTitle) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#returntobookingbottom {
+  margin-top: 20px;
+}
+
+div.captionCell p:not(:first-child) {
+  line-height: 0.6;
+}
+
+div[id*='indented'] {
+  margin-left: 23px;
+  margin-top: -.6rem;
+}
+
+div[id*='indented'] .inputcell {
+  position: relative;
+  margin-left: 10px;
+  right: unset;
+}
+
+.informationInput {
+  margin-bottom: 0.5rem
+}
