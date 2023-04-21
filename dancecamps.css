@@ -31,7 +31,7 @@ div#wrapperdiv {
   /* border-radius: 3px; */
 }
 
-#wrapperdiv > * {
+#wrapperdiv > *:not(#BodyTitle) {
   max-width: 51.25rem;
   margin: 0 auto;
 }
@@ -61,6 +61,7 @@ body#bookingpage.testing p {
   font-weight: normal;
   color: white;
   padding: 1rem;
+  padding-left: 175px;
   text-align: right;
   vertical-align: unset;
   border-top-left-radius: 3px;
@@ -90,6 +91,7 @@ ul {
 
 .fieldwrapper {
   min-height: 2rem;
+  position: relative;
 }
 
 .itemdescriptioncell,
@@ -103,7 +105,7 @@ ul {
 
 .inputcell {
   position: absolute;
-  right: 1rem;
+  /* right: 1rem; */
   line-height: 1.0rem;
 }
 
