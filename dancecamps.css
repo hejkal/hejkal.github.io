@@ -1,13 +1,16 @@
 html {
   font-size: 18px;
   background: none;
-  font-family: Avenir, Helvetica, sans-serif;
+  font-family: Avenir, Avenir Next LT Pro, Montserrat, Corbel, URW Gothic, source-sans-pro, sans-serif;
   color: #3c2e56;
 }
 
 @media (min-width: 600px) {
   html {
     font-size: 20px;
+  }
+  div#BodyTitle,
+  body#bookingpage.testing p {
   }
 }
 
@@ -27,15 +30,7 @@ p.errorText {
   padding: 0 1em 1.5em 1em;
 }
 
-div#wrapperdiv {
-  /* width: 100%; */
-  /* max-width: 51.25rem; */
-  /* margin: 0 auto; */
-  /* position: relative; */
-  /* top: 2rem; */
-  /* background: rgba(241, 241, 241, 0.64); */
-  /* border-radius: 3px; */
-}
+#wrapperdiv {}
 
 #wrapperdiv > *:not(#BodyTitle) {
   max-width: 51.25rem;
@@ -69,6 +64,17 @@ body#bookingpage.testing p {
   padding: 1rem 1.25rem 1rem 11rem;
   text-align: right;
   vertical-align: unset;
+}
+
+@media (max-width: 600px) {
+  div#BodyTitle,
+  body#bookingpage.testing p {
+    background-position: center 12px, left;
+    height: 210px;
+    font-size: 1.25rem;
+    padding: 9rem 1rem 1rem 1rem;
+    text-align: center;
+  }
 }
 
 .sectionWrapper {
