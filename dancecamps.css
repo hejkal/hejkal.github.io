@@ -44,7 +44,7 @@ body#bookingpage.testing p {
       hsl(240deg 100% 10%) 100%);
   background-repeat: no-repeat, no-repeat;
   background-position: 20px 10px, left;
-  background-position: 150px, auto;
+  background-size: 150px, auto;
   height: 170px;
   width: 100%;
   font-size: 2rem;
