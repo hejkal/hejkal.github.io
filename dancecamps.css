@@ -1,8 +1,12 @@
 html {
-  font-size: 16px;
+  font-size: 18px;
   background: none;
   font-family: Avenir, Helvetica, sans-serif;
-  color: #191919;
+  color: #3c2e56;
+}
+
+body {
+  margin: 0;
 }
 
 .errorText {
@@ -18,12 +22,18 @@ p.errorText {
 }
 
 div#wrapperdiv {
+  /* width: 100%; */
+  /* max-width: 51.25rem; */
+  /* margin: 0 auto; */
+  /* position: relative; */
+  /* top: 2rem; */
+  /* background: rgba(241, 241, 241, 0.64); */
+  /* border-radius: 3px; */
+}
+
+#wrapperdiv > * {
   max-width: 51.25rem;
   margin: 0 auto;
-  position: relative;
-  top: 2rem;
-  background: rgba(241, 241, 241, 0.64);
-  border-radius: 3px;
 }
 
 div#BodyTitle,
