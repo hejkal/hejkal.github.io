@@ -42,7 +42,9 @@ body#bookingpage.testing p {
       hsl(288deg 61% 15%) 55%,
       hsl(271deg 65% 14%) 70%,
       hsl(254deg 73% 13%) 85%,
-      hsl(240deg 100% 10%) 100%);
+      hsl(240deg 100% 10%) 100%), url(logo.webp);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, left;
   height: 170px;
   width: 100%;
   font-size: 2rem;
