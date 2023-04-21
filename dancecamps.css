@@ -53,15 +53,14 @@ body#bookingpage.testing p {
       hsl(254deg 73% 13%) 85%,
       hsl(240deg 100% 10%) 100%);
   background-repeat: no-repeat, no-repeat;
-  background-position: 20px 10px, left;
-  background-size: 150px, auto;
+  background-position: 24px 12px, left;
+  background-size: 144px, auto;
   height: 170px;
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: normal;
   color: white;
-  padding: 1rem;
-  padding-left: 175px;
+  padding-left: 1rem 1.25rem 1rem 11rem;
   text-align: right;
   vertical-align: unset;
 }
@@ -158,7 +157,7 @@ input[type=button] {
   cursor: pointer;
   size: 2em;
   color: white;
-  background: #364D7F;
+  background: #853145;
   margin: 1em auto;
   padding: 0.7em 1em;
   box-sizing: border-box;
@@ -189,7 +188,7 @@ input[type=button] {
 
 input[type=submit]:hover,
 input[type=button]:hover {
-  background: #162d5F;
+  background: #3c2e56;
 }
 
 /* tabbed radioGroups! */
@@ -228,7 +227,7 @@ ul.radioGroup li:last-child label {
 }
 
 input[type=radio]+label {
-  background: #cccccc;
+  background: #d8d5dd;
   padding: 0.2em 1em;
   margin-left: -1px;
   position: relative;
@@ -242,7 +241,7 @@ li [type=radio] {
 }
 
 input[type=radio]:checked+label {
-  background: #162d5F;
+  background: #3c2e56;
   z-index: 2;
   color: white;
 }
