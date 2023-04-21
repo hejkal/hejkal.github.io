@@ -140,11 +140,7 @@ select {
 
 select {
   height: 1.5rem;
-  background-color: #d8d5dd;
-}
-
-option {
-  background-color: #d8d5dd;
+  background-color: white;
 }
 
 #addendum {
