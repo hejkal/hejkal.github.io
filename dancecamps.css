@@ -87,6 +87,7 @@ ul {
 }
 
 a {
+  color: #3c2e56;
   text-decoration-line: underline;
   text-decoration-color: #d8d5dd;
   text-decoration-thickness: 1px;
@@ -139,6 +140,11 @@ select {
 
 select {
   height: 1.5rem;
+  background-color: #d8d5dd;
+}
+
+option {
+  background-color: #d8d5dd;
 }
 
 #addendum {
