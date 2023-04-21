@@ -60,7 +60,7 @@ body#bookingpage.testing p {
   font-size: 1.5rem;
   font-weight: normal;
   color: white;
-  padding-left: 1rem 1.25rem 1rem 11rem;
+  padding: 1rem 1.25rem 1rem 11rem;
   text-align: right;
   vertical-align: unset;
 }
@@ -84,6 +84,17 @@ ul {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   margin: 0;
+}
+
+a {
+  text-decoration-line: underline;
+  text-decoration-color: #d8d5dd;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  text-decoration-color: #3c2e56;
 }
 
 .fieldwrapper {
@@ -157,7 +168,7 @@ input[type=button] {
   cursor: pointer;
   size: 2em;
   color: white;
-  background: #853145;
+  background: #3c2e56;
   margin: 1em auto;
   padding: 0.7em 1em;
   box-sizing: border-box;
