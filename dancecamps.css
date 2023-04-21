@@ -29,18 +29,31 @@ div#wrapperdiv {
 div#BodyTitle,
 body#bookingpage.testing p {
   box-sizing: border-box;
-  background: url(cb-front-page.gif);
+  /* background: url(cb-front-page.gif); */
+  /* from nsb-maroon to nsb-dark */
+  /* https: //www.joshwcomeau.com/gradient-generator */
+  background-image: linear-gradient(25deg,
+      hsl(346deg 46% 36%) 0%,
+      hsl(339deg 50% 32%) 6%,
+      hsl(332deg 53% 28%) 13%,
+      hsl(324deg 56% 24%) 21%,
+      hsl(315deg 58% 21%) 30%,
+      hsl(303deg 58% 17%) 42%,
+      hsl(288deg 61% 15%) 55%,
+      hsl(271deg 65% 14%) 70%,
+      hsl(254deg 73% 13%) 85%,
+      hsl(240deg 100% 10%) 100%);
   height: 170px;
   width: 100%;
   font-size: 2rem;
   font-weight: normal;
-  color: #f6f6f6;
+  color: white;
   padding: 1rem;
   vertical-align: unset;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   background-position: center center;
-  text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5); */
 }
 
 .sectionWrapper {
