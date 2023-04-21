@@ -64,8 +64,6 @@ body#bookingpage.testing p {
   padding-left: 175px;
   text-align: right;
   vertical-align: unset;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
 }
 
 .sectionWrapper {
