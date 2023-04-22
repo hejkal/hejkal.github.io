@@ -79,6 +79,20 @@ body#bookingpage.testing p {
     padding: 9rem 1rem 1rem 1rem;
     text-align: center;
   }
+  .fieldwrapper {
+    min-height: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .itemdescriptioncell {
+    margin: 1rem 0 .5rem 0;
+  }
+  .inputcell {
+    position: relative;
+    right: unset;
+    line-height: 1.0rem;
+  }
 }
 
 .sectionWrapper {
