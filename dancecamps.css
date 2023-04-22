@@ -77,11 +77,13 @@ body#bookingpage.testing p {
 }
 
 .sectionHeader {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #3c2e56;
-  margin-bottom: 0.5em;
-  border-bottom: 1px solid black;
-  padding-bottom: 5px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1em;
+  /* border-bottom: 1px solid #3c2e56;; */
+  /* padding-bottom: 5px; */
 }
 
 p,
