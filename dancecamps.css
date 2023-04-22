@@ -30,11 +30,10 @@ p.errorText {
   padding: 0 1em 1.5em 1em;
 }
 
-#wrapperdiv {}
-
 #wrapperdiv > *:not(#BodyTitle) {
-  max-width: 51.25rem;
+  max-width: calc(min(51.25rem, 100vw));
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 div#BodyTitle,
