@@ -126,15 +126,6 @@ a:hover {
   /* line-height: 1.0rem; */
 }
 
-ul.radiogroup {
-  list-marker-style: none;
-}
-
-ul.radiogroup li {
-  display: inline-block;
-  float: left;
-}
-
 input,
 textarea,
 select {
@@ -225,7 +216,7 @@ ul.radioGroup {
 }
 
 ul.radioGroup li {
-  float: left;
+  display: inline-block;
 }
 
 ul.radioGroup li:first-child label {
@@ -334,8 +325,6 @@ div[id*='indented'] .inputcell {
   }
 
   .fieldwrapper {
-    min-height: 2rem;
-    position: relative;
     display: flex;
     flex-direction: column;
     padding-right: 0;
@@ -349,5 +338,9 @@ div[id*='indented'] .inputcell {
     position: relative;
     right: unset;
     line-height: 1.0rem;
+  }
+
+  #row_VolunteerLink {
+    margin-top: 1rem;
   }
 }
