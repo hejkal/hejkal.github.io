@@ -298,9 +298,9 @@ input[type="checkbox"] {
   margin-top: 20px;
 }
 
-div.captionCell p:not(:first-child) {
+/* div.captionCell p:not(:first-child) {
   line-height: 0.6;
-}
+} */
 
 div[id*='indented'] {
   margin-left: 23px;
