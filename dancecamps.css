@@ -117,6 +117,10 @@ a:hover {
   line-height: 1.0rem;
 }
 
+.itemdescriptioncell p:not:first-child {
+  margin-top: 0.25rem;
+}
+
 .inputcell {
   position: absolute;
   right: 0;
