@@ -1,5 +1,6 @@
 html {
-  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.3em;
   background: none;
   font-family: Avenir, Avenir Next LT Pro, Montserrat, Corbel, URW Gothic, source-sans-pro, sans-serif;
   color: #3c2e56;
@@ -7,7 +8,7 @@ html {
 
 @media (min-width: 600px) {
   html {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   /* div#BodyTitle,
   body#bookingpage.testing p {
@@ -114,17 +115,13 @@ a:hover {
 }
 
 .itemdescriptioncell {
-  line-height: 1.0rem;
-}
-
-.itemdescriptioncell p:not:first-child {
-  margin-top: 0.25rem;
+  /* line-height: 1.0rem; */
 }
 
 .inputcell {
   position: absolute;
   right: 0;
-  line-height: 1.0rem;
+  /* line-height: 1.0rem; */
 }
 
 ul.radiogroup {
