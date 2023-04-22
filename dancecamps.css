@@ -331,6 +331,7 @@ div[id*='indented'] .inputcell {
     position: relative;
     display: flex;
     flex-direction: column;
+    padding-right: 0;
   }
 
   .itemdescriptioncell {
