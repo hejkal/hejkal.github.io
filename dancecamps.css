@@ -70,31 +70,6 @@ body#bookingpage.testing p {
   height: 210px;
 }
 
-@media (max-width: 600px) {
-  div#BodyTitle,
-  body#bookingpage.testing p {
-    background-position: center 12px, left;
-    height: 210px;
-    font-size: 1.25rem;
-    padding: 9rem 1rem 1rem 1rem;
-    text-align: center;
-  }
-  .fieldwrapper {
-    min-height: 2rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-  }
-  .itemdescriptioncell {
-    margin: 1rem 0 .5rem 0;
-  }
-  .inputcell {
-    position: relative;
-    right: unset;
-    line-height: 1.0rem;
-  }
-}
-
 .sectionWrapper {
   float: left;
   position: inherit;
@@ -340,4 +315,32 @@ div[id*='indented'] .inputcell {
 
 .informationInput {
   margin-bottom: 0.5rem
+}
+
+@media (max-width: 600px) {
+  div#BodyTitle,
+  body#bookingpage.testing p {
+    background-position: center 12px, left;
+    height: 210px;
+    font-size: 1.25rem;
+    padding: 9rem 1rem 1rem 1rem;
+    text-align: center;
+  }
+
+  .fieldwrapper {
+    min-height: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemdescriptioncell {
+    margin: 1rem 0 .5rem 0;
+  }
+
+  .inputcell {
+    position: relative;
+    right: unset;
+    line-height: 1.0rem;
+  }
 }
