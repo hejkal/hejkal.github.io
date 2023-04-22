@@ -9,9 +9,9 @@ html {
   html {
     font-size: 20px;
   }
-  div#BodyTitle,
+  /* div#BodyTitle,
   body#bookingpage.testing p {
-  }
+  } */
 }
 
 body {
@@ -64,6 +64,10 @@ body#bookingpage.testing p {
   padding: 1rem 1.25rem 1rem 11rem;
   text-align: right;
   vertical-align: unset;
+}
+
+body#bookingpage.testing p {
+  height: 210px;
 }
 
 @media (max-width: 600px) {
