@@ -151,8 +151,7 @@ select {
 }
 
 #addendum {
-  padding: 1.0rem;
-  clear: both;
+  margin-top: 1rem;
 }
 
 #bookagain {
