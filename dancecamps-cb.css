@@ -1,6 +1,6 @@
 html {
   font-size: 1.125rem;
-  line-height: 1.3em;
+  line-height: 1.3;
   background: none;
   font-family: Avenir, Avenir Next LT Pro, Montserrat, Corbel, URW Gothic,
     source-sans-pro, sans-serif;
@@ -70,7 +70,7 @@ body.confirmation .itemdescriptioncell {
 
 body.confirmation #Introduction strong {
   font-size: 1.5rem;
-  line-height: 1.3em;
+  line-height: 1.3;
 }
 
 .sectionWrapper {
@@ -84,7 +84,7 @@ body.confirmation #Introduction strong {
   color: #3c2e56;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  line-height: 1em;
+  line-height: 1;
   /* border-bottom: 1px solid #3c2e56;; */
   /* padding-bottom: 5px; */
 }
