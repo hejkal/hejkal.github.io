@@ -1,8 +1,12 @@
+/* put in introduction source: */
+/* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */
+
 html {
   font-size: 1.125rem;
   line-height: 1.3em;
   background: none;
-  font-family: Avenir, Avenir Next LT Pro, Montserrat, Corbel, URW Gothic, source-sans-pro, sans-serif;
+  font-family: Avenir, Avenir Next LT Pro, Montserrat, Corbel, URW Gothic,
+    source-sans-pro, sans-serif;
   color: #3c2e56;
 }
 
@@ -42,7 +46,9 @@ body#bookingpage.testing p {
   box-sizing: border-box;
   /* from nsb-maroon to nsb-dark */
   /* https: //www.joshwcomeau.com/gradient-generator */
-  background-image: url(logo.webp), linear-gradient(25deg,
+  background-image: url(logo.webp),
+    linear-gradient(
+      25deg,
       hsl(346deg 46% 36%) 0%,
       hsl(339deg 50% 32%) 6%,
       hsl(332deg 53% 28%) 13%,
@@ -52,7 +58,8 @@ body#bookingpage.testing p {
       hsl(288deg 61% 15%) 55%,
       hsl(271deg 65% 14%) 70%,
       hsl(254deg 73% 13%) 85%,
-      hsl(240deg 100% 10%) 100%);
+      hsl(240deg 100% 10%) 100%
+    );
   background-repeat: no-repeat, no-repeat;
   background-position: 24px 12px, left;
   background-size: 144px, auto;
@@ -163,16 +170,16 @@ select {
 }
 
 /* item specific css */
-div[id*=_Address] {
-  height: 3.0rem;
+div[id*='_Address'] {
+  height: 3rem;
 }
 
 textarea {
   height: 2.75rem;
 }
 
-input[type=submit],
-input[type=button] {
+input[type='submit'],
+input[type='button'] {
   cursor: pointer;
   font-size: 1rem;
   color: white;
@@ -183,7 +190,6 @@ input[type=button] {
   -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
   border: none;
-
 }
 
 #Introduction {
@@ -205,8 +211,8 @@ input[type=button] {
   margin-bottom: 0;
 }
 
-input[type=submit]:hover,
-input[type=button]:hover {
+input[type='submit']:hover,
+input[type='button']:hover {
   background: #3c2e56;
 }
 
@@ -214,9 +220,9 @@ input[type=button]:hover {
 ul.radioGroup {
   list-style-type: none;
   position: relative;
-  min-height: 1.0em;
+  min-height: 1em;
   clear: both;
-  margin: 0.10em 0 0.10em 0.10em;
+  margin: 0.1em 0 0.1em 0.1em;
   font-size: 0.9em;
   padding-left: 0;
   border: none;
@@ -245,7 +251,7 @@ ul.radioGroup li:last-child label {
   border-bottom-right-radius: 0.5em;
 }
 
-input[type=radio]+label {
+input[type='radio'] + label {
   background: #d8d5dd;
   padding: 0.2em 1em;
   margin-left: -1px;
@@ -255,21 +261,21 @@ input[type=radio]+label {
   border: none;
 }
 
-li [type=radio] {
+li [type='radio'] {
   display: none !important;
 }
 
-input[type=radio]:checked+label {
+input[type='radio']:checked + label {
   background: #3c2e56;
   z-index: 2;
   color: white;
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
   min-width: auto;
 }
 
-.sCostSummary input[type=button]:first-child {
+.sCostSummary input[type='button']:first-child {
   background: #cccccc;
   color: black;
 }
@@ -289,7 +295,7 @@ input[type="checkbox"] {
   padding: 1rem 0 0 0;
 }
 
-#bookingpage #wrapperdiv>div:not(#BodyTitle) {
+#bookingpage #wrapperdiv > div:not(#BodyTitle) {
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -304,7 +310,7 @@ input[type="checkbox"] {
 
 div[id*='indented'] {
   margin-left: 23px;
-  margin-top: -.6rem;
+  margin-top: -0.6rem;
 }
 
 div[id*='indented'] .inputcell {
@@ -314,7 +320,7 @@ div[id*='indented'] .inputcell {
 }
 
 .informationInput {
-  margin-bottom: 0.5rem
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 600px) {
@@ -338,13 +344,13 @@ div[id*='indented'] .inputcell {
   }
 
   .itemdescriptioncell {
-    margin: .75rem 0 .25rem 0;
+    margin: 0.75rem 0 0.25rem 0;
   }
 
   .inputcell {
     position: relative;
     right: unset;
-    line-height: 1.0rem;
+    line-height: 1rem;
   }
 
   #row_VolunteerLink {
