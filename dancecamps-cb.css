@@ -53,7 +53,9 @@ body#bookingpage.testing p {
   font-weight: normal;
   padding: 1rem 1.25rem 1rem 11rem;
   text-align: right;
-  vertical-align: unset;
+  display: flex;
+  align-items: center;
+  justify-content: end;
   line-height: 1.25;
   text-wrap: balance;
 }
@@ -314,7 +316,7 @@ div[id*='indented'] .inputcell {
     background-position: center 12px, left;
     height: 245px;
     font-size: 1.25rem;
-    padding: 10rem 1rem 1rem 1rem;
+    padding: 9.5rem 1rem 1rem 1rem;
     text-align: center;
   }
 
