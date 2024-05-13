@@ -14,9 +14,6 @@ html {
   html {
     font-size: 1.25rem;
   }
-  /* div#BodyTitle,
-  body#bookingpage.testing p {
-  } */
 }
 
 body {
@@ -97,8 +94,6 @@ body.confirmation #Introduction strong {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   line-height: 1;
-  /* border-bottom: 1px solid #3c2e56;; */
-  /* padding-bottom: 5px; */
 }
 
 p,
@@ -109,18 +104,16 @@ ul {
 }
 
 a {
-  color: #3c2e56;
   text-decoration-line: underline;
-  text-decoration-color: #d8d5dd;
   text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
-  transition-property: text-decoration-color;
+  /* text-underline-offset: 4px; */
+  /* transition-property: text-decoration-color; */
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a:hover {
-  text-decoration-color: #3c2e56;
+  text-underline-offset: 4px;
 }
 
 .fieldwrapper {
@@ -137,7 +130,6 @@ a:hover {
 .inputcell {
   position: absolute;
   right: 0;
-  /* line-height: 1.0rem; */
 }
 
 input,
@@ -303,10 +295,6 @@ input[type='checkbox'] {
 #returntobookingbottom {
   margin-top: 20px;
 }
-
-/* div.captionCell p:not(:first-child) {
-  line-height: 0.6;
-} */
 
 div[id*='indented'] {
   margin-left: 23px;

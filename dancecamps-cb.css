@@ -14,9 +14,6 @@ html {
   html {
     font-size: 1.25rem;
   }
-  /* div#BodyTitle,
-  body#bookingpage.testing p {
-  } */
 }
 
 body {
@@ -86,8 +83,6 @@ body.confirmation #Introduction strong {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   line-height: 1;
-  /* border-bottom: 1px solid #3c2e56;; */
-  /* padding-bottom: 5px; */
 }
 
 p,
@@ -126,7 +121,6 @@ a:hover {
 .inputcell {
   position: absolute;
   right: 0;
-  /* line-height: 1.0rem; */
 }
 
 input,
@@ -292,10 +286,6 @@ input[type='checkbox'] {
 #returntobookingbottom {
   margin-top: 20px;
 }
-
-/* div.captionCell p:not(:first-child) {
-  line-height: 0.6;
-} */
 
 div[id*='indented'] {
   margin-left: 23px;
