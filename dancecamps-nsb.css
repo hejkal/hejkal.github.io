@@ -105,16 +105,16 @@ ul {
 
 a {
   text-decoration-line: underline;
-  text-decoration-thickness: 1px;
+  /* text-decoration-thickness: 1px; */
   /* text-underline-offset: 4px; */
   /* transition-property: text-decoration-color; */
-  transition-duration: 300ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-a:hover {
+/* a:hover {
   text-underline-offset: 4px;
-}
+} */
 
 .fieldwrapper {
   min-height: 2rem;

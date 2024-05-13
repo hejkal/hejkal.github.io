@@ -93,19 +93,19 @@ ul {
 }
 
 a {
-  color: #3c2e56;
+  /* color: #3c2e56; */
   text-decoration-line: underline;
-  text-decoration-color: #d8d5dd;
+  /* text-decoration-color: #d8d5dd;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
   transition-property: text-decoration-color;
   transition-duration: 300ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-a:hover {
+/* a:hover {
   text-decoration-color: #3c2e56;
-}
+} */
 
 .fieldwrapper {
   min-height: 2rem;
