@@ -93,7 +93,7 @@ ul {
 }
 
 a {
-  /* color: #3c2e56; */
+  color: rgb(24, 24, 207);
   text-decoration-line: underline;
   /* text-decoration-color: #d8d5dd;
   text-decoration-thickness: 1px;
@@ -103,9 +103,9 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-/* a:hover {
-  text-decoration-color: #3c2e56;
-} */
+a:visited {
+  color: rgb(24, 24, 207);
+}
 
 .fieldwrapper {
   min-height: 2rem;
