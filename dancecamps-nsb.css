@@ -59,14 +59,14 @@ body#bookingpage.testing p {
       hsl(240deg 100% 10%) 100%
     );
   background-repeat: no-repeat, no-repeat;
-  background-position: 24px 12px, left;
-  background-size: 144px, auto;
-  height: 170px;
+  background-position: 1rem -0.5rem, left;
+  background-size: 425px, auto;
+  height: 224px;
   width: 100%;
   font-size: 1.5rem;
   font-weight: normal;
   color: white;
-  padding: 1rem 1.25rem 1rem 11rem;
+  padding: 1rem 1.25rem 1rem 24rem;
   text-align: right;
   vertical-align: unset;
 }
@@ -318,9 +318,10 @@ div[id*='indented'] .inputcell {
   div#BodyTitle,
   body#bookingpage.testing p {
     background-position: center 12px, left;
-    height: 210px;
+    background-size: 400px, auto;
+    height: 320px;
     font-size: 1.25rem;
-    padding: 9rem 1rem 1rem 1rem;
+    padding: 15rem 1rem 1rem 1rem;
     text-align: center;
   }
 
