@@ -20,6 +20,12 @@ body {
   margin: 0;
 }
 
+/* specific, remove later */
+#row_Shirtinfo {
+  margin-top: 1.5rem;
+}
+/* end */
+
 .errorText {
   color: red;
 }
@@ -335,10 +341,6 @@ div[id*='indented'] .inputcell {
     flex-direction: column;
     padding-right: 0;
     margin-top: 0.75rem;
-  }
-
-  #row_Shirtinfo {
-    margin-top: 1.5rem;
   }
 
   .itemdescriptioncell {
