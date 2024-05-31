@@ -111,6 +111,7 @@ a:visited {
   min-height: 2rem;
   position: relative;
   padding-right: 250px;
+  margin-top: 1rem;
 }
 
 .itemdescriptioncell,
@@ -320,6 +321,7 @@ div[id*='indented'] .inputcell {
     display: flex;
     flex-direction: column;
     padding-right: 0;
+    margin-top: 0.75rem;
   }
 
   .itemdescriptioncell {
