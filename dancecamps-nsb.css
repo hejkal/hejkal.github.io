@@ -46,22 +46,25 @@ p.errorText {
 div#BodyTitle,
 body#bookingpage.testing p {
   box-sizing: border-box;
-  /* from nsb-maroon to nsb-dark */
   /* https: //www.joshwcomeau.com/gradient-generator */
-  background-image: url(banner2024.webp),
+  background-image: url(nsb-stacked.svg),
     linear-gradient(
       125deg,
-      hsl(260deg 43% 21%) 0%,
-      hsl(258deg 45% 20%) 9%,
-      hsl(256deg 47% 20%) 18%,
-      hsl(253deg 49% 19%) 27%,
-      hsl(251deg 51% 18%) 36%,
-      hsl(248deg 53% 17%) 45%,
-      hsl(244deg 56% 16%) 55%,
-      hsl(240deg 59% 15%) 64%,
-      hsl(238deg 68% 14%) 73%,
-      hsl(237deg 79% 12%) 82%,
-      hsl(239deg 88% 11%) 91%,
+      hsl(258deg 45% 17%) 0%,
+      hsl(257deg 46% 17%) 7%,
+      hsl(255deg 48% 16%) 13%,
+      hsl(254deg 49% 16%) 20%,
+      hsl(252deg 51% 15%) 27%,
+      hsl(250deg 53% 15%) 33%,
+      hsl(248deg 55% 15%) 40%,
+      hsl(246deg 57% 14%) 47%,
+      hsl(244deg 59% 14%) 53%,
+      hsl(242deg 62% 13%) 60%,
+      hsl(241deg 66% 13%) 67%,
+      hsl(241deg 71% 12%) 73%,
+      hsl(240deg 77% 12%) 80%,
+      hsl(240deg 84% 11%) 87%,
+      hsl(240deg 92% 11%) 93%,
       hsl(240deg 100% 10%) 100%
     );
   background-repeat: no-repeat, no-repeat;
