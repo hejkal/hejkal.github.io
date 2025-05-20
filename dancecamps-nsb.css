@@ -77,8 +77,8 @@ body#bookingpage.testing p {
   height: 224px;
   width: 100%;
   font-size: 1.5rem;
-  font-weight: normal;
-  color: white;
+  font-weight: bold;
+  color: #ef9ca1;
   padding: 1rem 1.25rem 1rem 17rem;
   text-align: right;
   vertical-align: unset;
