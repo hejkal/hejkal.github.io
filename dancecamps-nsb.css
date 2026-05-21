@@ -75,12 +75,12 @@ body#bookingpage.testing p {
   background-repeat: no-repeat;
   background-position:
     1rem 1rem,
-    calc((100% - 265px) * 0.1 + 265px) 2rem,
-    calc((100% - 265px) * 0.3 + 265px) 7rem,
-    calc((100% - 265px) * 0.6 + 265px) 5.5rem,
-    calc((100% - 265px) * 0.9 + 265px) 9rem,
+    calc((100% - 260px) * 0.1 + 260px) 2rem,
+    calc((100% - 260px) * 0.3 + 260px) 7rem,
+    calc((100% - 260px) * 0.6 + 260px) 5.5rem,
+    calc((100% - 260px) * 0.9 + 260px) 8rem,
     left;
-  background-size: 265px, 34px, 30px, 20px, 20px, auto;
+  background-size: 260px, 34px, 30px, 20px, 20px, auto;
   height: 224px;
   width: 100%;
   font-size: 1.5rem;
