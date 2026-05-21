@@ -54,8 +54,8 @@ body#bookingpage.testing p {
   box-sizing: border-box;
   /* https: //www.joshwcomeau.com/gradient-generator */
   background-image:
-    url(nsb-2026.svg), url(pufferfish.svg), url(sea-turtle.svg),
-    url(seahorse1.svg), url(fish-light.svg),
+    url(nsb-2026.svg), url(sea-turtle.svg), url(pufferfish.svg),
+    url(fish-light.svg), url(seahorse1.svg),
     linear-gradient(
       120deg,
       hsl(220deg 86% 19%) 0%,
@@ -75,12 +75,12 @@ body#bookingpage.testing p {
   background-repeat: no-repeat;
   background-position:
     1rem 1rem,
-    calc((100% - 240px) * 0.1 + 240px) 2rem,
-    calc((100% - 240px) * 0.3 + 240px) 7rem,
-    calc((100% - 240px) * 0.6 + 240px) 5.5rem,
-    calc((100% - 240px) * 0.9 + 240px) 9rem,
+    calc((100% - 265px) * 0.1 + 265px) 2rem,
+    calc((100% - 265px) * 0.3 + 265px) 7rem,
+    calc((100% - 265px) * 0.6 + 265px) 5.5rem,
+    calc((100% - 265px) * 0.9 + 265px) 9rem,
     left;
-  background-size: 240px, 16px, 12px, 14px, 10px, auto;
+  background-size: 265px, 34px, 30px, 20px, 20px, auto;
   height: 224px;
   width: 100%;
   font-size: 1.5rem;
@@ -340,12 +340,12 @@ div[id*='indented'] .inputcell {
   body#bookingpage.testing p {
     background-position:
       center 32px,
-      1rem 2rem,
-      2rem 9rem,
-      calc(100% - 1.3rem) 5.5rem,
-      calc(100% - 2.5rem) 12rem,
+      1.5rem 1rem,
+      2.25rem 9.5rem,
+      calc(100% - 2rem) 3.5rem,
+      calc(100% - 4rem) 12.5rem,
       left;
-    background-size: min(14rem, 100vw - 6rem), 16px, 12px, 14px, 10px, auto;
+    background-size: min(14rem, 100vw - 6rem), 30px, 26px, 16px, 18px, auto;
     height: min(345px, 50vw + 9.5rem);
     font-size: 1.25rem;
     padding: min(15rem, 78vw) 1rem 1rem 1rem;
