@@ -339,15 +339,16 @@ div[id*='indented'] .inputcell {
   div#BodyTitle,
   body#bookingpage.testing p {
     background-position:
-      center 32px,
+      center 44px,
       1.5rem 1rem,
       2.25rem 9.5rem,
       calc(100% - 2rem) 3.5rem,
-      calc(100% - 4rem) 12.5rem,
+      calc(100% - 4rem) 11.5rem,
       left;
-    background-size: min(14rem, 100vw - 6rem), 30px, 26px, 16px, 18px, auto;
+    background-size: min(14rem, 100vw - 6rem), 26px, 22px, 16px, 16px, auto;
     height: min(345px, 50vw + 9.5rem);
     font-size: 1.25rem;
+    font-weight: 300;
     padding: min(15rem, 78vw) 1rem 1rem 1rem;
     text-align: center;
   }
