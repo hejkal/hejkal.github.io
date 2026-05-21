@@ -20,7 +20,7 @@ html {
   --color-nsb-maroon: #853145;
   --color-nsb-purple: #2e1f4f;
   --color-nsb-purple-dark: #24183f;
-  --color-nsb-dark: #000033;
+  --color-nsb-dark: #051c28;
 
   --color-nsb-rose: #e39678;
   --color-nsb-light-rose: #f1cdc4;
@@ -131,7 +131,7 @@ body.confirmation #Introduction strong {
 
 .sectionHeader {
   font-size: 2rem;
-  color: #3c2e56;
+  color: var(--color-nsb-sea-2);
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   line-height: 1;
