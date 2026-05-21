@@ -104,7 +104,7 @@ body#bookingpage.testing p {
   width: 100%;
   font-size: 1.5rem;
   font-weight: lighter;
-  color: rgba(var(--color-nsb-sea-5), 0.8);
+  color: rgba(137, 209, 204, 0.8); /* sea-5/8 */
   padding: 1rem 1.25rem 1rem 17rem;
   text-align: right;
   vertical-align: unset;
@@ -286,7 +286,7 @@ ul.radioGroup li:last-child label {
 }
 
 input[type='radio'] + label {
-  background: rgba(var(--color-nsb-sea-1), 0.2);
+  background: #bedbdd;
   padding: 0.2em 1em;
   margin-left: -1px;
   position: relative;
@@ -310,7 +310,7 @@ input[type='checkbox'] {
 }
 
 .sCostSummary input[type='button']:first-child {
-  background: rgba(var(--color-nsb-sea-1), 0.2);
+  background: #bedbdd;
   color: black;
 }
 
