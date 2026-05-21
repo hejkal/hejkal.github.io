@@ -57,7 +57,7 @@ body#bookingpage.testing p {
     url(nsb-2026.svg), url(sea-turtle.svg), url(pufferfish.svg),
     url(fish-light.svg), url(seahorse1.svg),
     linear-gradient(
-      120deg,
+      0deg,
       hsl(220deg 86% 19%) 0%,
       hsl(217deg 93% 18%) 8%,
       hsl(214deg 99% 18%) 17%,
@@ -340,8 +340,8 @@ div[id*='indented'] .inputcell {
   body#bookingpage.testing p {
     background-position:
       center 44px,
-      1.5rem 1rem,
-      2.25rem 9.5rem,
+      2rem 1.5rem,
+      2.5rem 10rem,
       calc(100% - 2rem) 3.5rem,
       calc(100% - 4rem) 11.5rem,
       left;
